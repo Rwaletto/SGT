@@ -1,0 +1,29 @@
+# Configurações e senhas
+.env
+.env.*
+!.env.example
+
+# Dependências
+/vendor/
+/node_modules/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.cache
+
+# Configurações de editores
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos enviados pelo sistema
+/storage/uploads/
+/uploads/
